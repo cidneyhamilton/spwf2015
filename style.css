@@ -15,3 +15,23 @@ Version: 1.0
   margin-top: 0;
   background-color: transparent;
 }
+
+/* Main menu background */
+#access {
+  background: linear-gradient(#8b7037, #504020) repeat scroll 0% 0% transparent;
+  margin-bottom: 0;
+}
+
+#main,
+#primary {
+  background-image: url('images/content-bg.jpg');
+}
+
+.hentry,
+.hentry:last-child,
+.singular .hentry {
+  background-color: #e0ce96;
+  box-shadow: 0 0 1px 1px #b47e51;
+  border-radius: 4px;
+  padding: 0.5em 1.5em;
+}
