@@ -11,13 +11,18 @@ Version: 1.0
 
 */
 
+#branding img {
+  width: 70%;
+  margin: 0 auto;
+}
+
 #page {
   margin-top: 0;
   background-color: transparent;
 }
 
 /* Main menu background */
-#access {
+.main-menu {
   background: linear-gradient(#8b7037, #504020) repeat scroll 0% 0% transparent;
   margin-bottom: 0;
 }
@@ -34,4 +39,19 @@ Version: 1.0
   box-shadow: 0 0 1px 1px #b47e51;
   border-radius: 4px;
   padding: 0.5em 1.5em;
+}
+
+/* Embedded Twitter styling */
+
+#secondary .widget_reallysimpletwitterwidget .widget-title {
+  display: block;
+}
+
+.really_simple_twitter_widget li {
+  background-color: #eee;
+  padding: 0.5em;
+}
+
+.really_simple_twitter_widget li:nth-child(odd){
+  background-color: white;
 }
