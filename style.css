@@ -19,6 +19,7 @@ Version: 1.0
 #page {
   margin-top: 0;
   background-color: transparent;
+  box-shadow: none;
 }
 
 /* Main menu background */
