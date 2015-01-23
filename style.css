@@ -28,8 +28,7 @@ Version: 1.0
   margin-bottom: 0;
 }
 
-#main,
-#primary {
+#main {
   background-image: url('images/content-bg.jpg');
 }
 
@@ -42,17 +41,22 @@ Version: 1.0
   padding: 0.5em 1.5em;
 }
 
-/* Embedded Twitter styling */
 
-#secondary .widget_reallysimpletwitterwidget .widget-title {
-  display: block;
+#colophon {
+  background-color: #2f2512;
 }
 
-.really_simple_twitter_widget li {
-  background-color: #eee;
-  padding: 0.5em;
+footer .widget a,
+footer #copyright a {
+  color: #6abdc4;
+  font-weight: normal;
 }
 
-.really_simple_twitter_widget li:nth-child(odd){
-  background-color: white;
+footer .widget-title {
+  border-bottom: 1px solid #c7e0d3;
+  color: #c7e0d3;
+}
+
+#copyright {
+  color: #c7e0d3;
 }
