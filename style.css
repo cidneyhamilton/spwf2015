@@ -60,3 +60,7 @@ footer .widget-title {
 #copyright {
   color: #c7e0d3;
 }
+
+.ribbon-wrapper {
+  display:none;
+}
